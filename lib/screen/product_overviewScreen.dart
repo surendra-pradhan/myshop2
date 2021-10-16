@@ -18,7 +18,7 @@ class ProductOverview extends StatefulWidget {
 class _ProductOverviewState extends State<ProductOverview> {
   var showFavoriteOnly = false;
   var _isinit = true;
-  var _isloading = false;
+  var _isloading = true;
   @override
   void didChangeDependencies() {
     if (_isinit) {
