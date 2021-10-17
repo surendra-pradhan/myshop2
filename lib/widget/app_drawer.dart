@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shop/helpers/custome_route.dart';
+
 import 'package:shop/providers/Auth.dart';
 import 'package:shop/screen/order_screen.dart';
 import 'package:shop/screen/userproduct_screen.dart';
@@ -17,7 +17,7 @@ class AppDrawer extends StatelessWidget {
           ),
           Divider(),
           ListTile(
-            leading: Icon(Icons.shop),
+            leading: Icon(Icons.shopping_bag),
             title: Text("Shop"),
             onTap: () {
               Navigator.of(context).pushReplacementNamed('/');
